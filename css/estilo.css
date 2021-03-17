@@ -1,0 +1,1558 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: #fff;
+}
+
+/*PADRÃO*/
+strong {
+    font-weight: 700;
+}
+
+
+/*FONTS*/
+.fonte-allura {
+    font-family: 'Allura', cursive;
+    color: #f08105;
+}
+
+.fonte-josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fonte-merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+/*HEADER HOME - CAPA*/
+.capa {
+    padding: .3125rem 0;
+    height: 650px;
+   /* height: auto;*/
+    background: url("../Fotos/capa.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+/*HEADERS - CAPA*/
+.capa-controle {
+    height: 114px;
+    padding: 15px;
+    background: #fff;
+    position: relative;
+}
+
+/*TOPO - LOGO*/
+.logo-span {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    display: block;
+    max-height: 3.125rem;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/*TOPO MENU - ITENS*/
+#nav-principal ul {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+}
+
+#nav-principal ul li {
+    position: relative;
+    margin: 0;
+}
+
+#nav-principal ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .9375rem;
+    font-weight: 500;
+    letter-spacing: .0625rem;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+/*PADRÃO MENU*/
+#nav-principal ul li a.controle {
+    color: #666;
+}
+
+#nav-principal ul li a:hover {
+    color: #f08105;
+}
+
+/*TOPO MENU - PÁGINAS*/
+#home #navegacao .home a,
+#cervejaria #navegacao .cervejaria a,
+#nossascervejas #navegacao .nossascervejas a,
+#visitaguiada #navegacao .visitaguiada a,
+#contato #navegacao .contato a {
+    color: #f08105;
+}
+
+
+/*CAPA - FONTE*/
+#capa-fonte {
+    padding-top: 60px;
+}
+
+#capa-fonte .cerveja-primeira {
+    font-size: 65px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#capa-fonte .microcervejaria {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    box-sizing: border-box;   
+    padding-top: 60px; 
+    color: #fff;
+}
+
+#capa-fonte .cervejófilos {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-top: 50px;
+    color: #fff;
+}
+/*--------------------------------------------------------------------------------*/
+
+/*SECTION - PROPAGANDA*/
+section {
+    height: 730px;
+    position: relative;
+}
+
+#propaganda h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+
+.padrao-h3 {
+    font-size: 3.125rem;
+    font-weight: 400;
+    padding: 5px;
+}
+
+#propaganda p {
+    font-size: 1rem;
+    color: #888;
+    text-align: justify;
+    padding: 5px;
+}
+
+.button-controle {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 256px;
+    height: 52px;
+    border: 1px solid #f08105;
+    color: #222;
+    margin-top: 15px;
+}
+
+.button-controle:hover {
+    border: 1px solid #222;
+    background-color: transparent;
+}
+
+
+/*SECTION - CAPA SECUNDÁRIA*/
+#capa-secundaria {
+    background:  url("../Fotos/capa-secundaria.jpg") no-repeat;
+    height: 620px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+/*SECTION - TABELA*/
+#tabela {
+    height: 730px;   
+}
+
+#tabela .tab-espacamento {
+    padding-bottom: 60px;
+}
+
+.cerveja-large {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45px;
+    color: #222;
+}
+
+#tabela .tab-cerveja {
+    margin-top: 60px;
+}
+
+#tabela .tab-cerveja h3 {
+    font-size: 1.075rem;
+}
+
+#tabela table h3{
+    font-size: 1.75rem;
+}
+
+#tabela .tab-2-espacamento {
+    padding-left: 40px;
+}
+
+
+/*SECTION CAPA TERCIÁRIA*/
+#capa-terciaria {
+    background:  url("../Fotos/capa-terciaria.jpg") no-repeat;
+    height: 620px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+/*SECTION VISITA*/
+
+#visita {
+    height: 507px;
+}
+
+#visita h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #222;
+}
+
+#visita h3 {
+    font-size: 3.125rem; 
+}
+
+#visita p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+/*FOOTER*/
+footer {
+    height: 118px;
+    padding: 28px;
+    font-size: .875rem;
+    font-weight: 300;
+}
+
+#rodape-container2 h6 span {
+    border-bottom: 1px solid #888;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+/*                      CERVEJARIA                                                 */
+
+#historia {
+    height: 270px;
+    margin-top: 45px;
+    padding-top: 30px;
+}
+
+#historia h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #222;
+}
+
+#historia h3 {
+    font-size: 3.125rem;
+    font-weight: 400;
+}
+
+#historia p {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/*SECTION CAPA CERVEJARIA*/
+#capa-cervejaria {    
+    background:  url("../Fotos/capa-cervejaria.jpg") no-repeat;    
+    background-size: cover;
+    background-position: center center;
+   /* margin-top: 40px;*/
+    height: 560px;
+    margin-top: 30px;
+    margin-bottom:  30px;
+    position: relative;
+}
+
+/*SECTION CONTEÚDO CERVEJARIA*/
+#conteudo-cervejaria {
+    height: 540px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+#conteudo-cervejaria p {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/*SECTION PROPAGANDA CERVEJA*/
+.propaganda-cerveja-container{
+    height: 730px;
+}
+
+.prop-cerveja-h2 {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #222;
+}
+
+.prop-cerveja-h3 {
+    font-size: 3.125rem;
+    font-weight: 500;
+}
+
+.prop-cerveja-p {
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+
+/*VISITA GUIADA*/
+#visitaguiada-container {
+    height: 507px;
+}
+
+#visitaguiada-container h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #222;
+}
+
+#visitaguiada-container h3 {
+    font-size: 3.125rem; 
+}
+
+#visitaguiada-container p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/*FORMULÁRIO*/
+#formulario label {
+    font-weight: 700;
+    color: #888;
+    font-size: 14px;
+    /*text-align: right;*/    
+}
+
+#formulario input {
+    width: 354px;
+    height: 42px;
+    border-color: #9c9c9c;
+}
+
+#formulario textarea {
+    width: 354px;
+    height: 150px;
+    border-color: #9c9c9c;
+}
+
+/*CONTATO*/
+#contato-conteudo {
+    height: 350px;
+    padding-top: 10px;
+}
+
+#contato-conteudo-container2 {    
+    padding-left: 40px;
+}
+
+
+#mapa {
+    height: 600px;
+    text-align: center;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+/*MEDIA QUERIE*/
+/*Portrait phones, less than 579px*/
+@media (max-width: 575.98px)
+{
+    /*CAPA - PRINCIPAL - HEADER*/
+    #home{
+        height: 300px;
+        background-size: cover;
+        background-position: right center;       
+    }
+
+    /*CAPA CONTROLE*/
+    .capa-controle {
+        height: 90px;
+    }
+
+    /*LOGO*/
+    #home span {
+        font-size: 1.075rem;
+    }
+
+    /*LOGO CONTROLE*/
+    .capa-controle span {
+        font-size: 1.075rem;
+    }
+    
+    /*MENU HOME - HAMBURGER*/
+    #home button {
+        color: #fff;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU CERVEJARIA - HAMBURGER*/
+    #cervejaria button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU NOSSAS CERVEJAS - HAMBURGER*/
+    #nossascervejas button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }    
+
+    /*MENU VISITA - HAMBURGER*/
+    #visitaguiada button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }  
+
+    /*MENU CONTATO - HAMBURGER*/
+    #contato button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*TOPO - FONTS*/
+    #capa-fonte {
+        padding-top: 15px;
+    }
+
+    #capa-fonte .fonte-allura {
+        font-size: 2.375rem;
+    }
+
+    #capa-fonte .microcervejaria {
+        font-size: 2.375rem;
+        padding-top: 20px;
+    }
+
+    #capa-fonte .cervejófilos {
+        font-size: 1.125rem;
+        padding-top: 25px;
+    }
+
+    /*SECTION PROPAGANDA*/
+    #propaganda {
+        height: 718px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #propaganda h2 {
+        font-size: 2rem;
+    }
+
+    #propaganda h3 {
+        font-size: 2.1875rem;
+    }
+
+    #propaganda p {
+        font-size: .95rem;
+    }
+
+    #propaganda button {
+        font-size: 1rem;
+        width: 224px;
+        height: 52px;
+    }
+
+    /*SECTION - CAPA SECUNDÁRIA*/
+    #capa-secundaria {
+        height: 330px;
+        background-size: cover;
+        background-position: right left;     
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    /*SECTION - TABELA*/
+    #tabela {
+        height: 1060px;
+    }
+
+    .tab-espacamento {
+        padding-top: 100px;
+    }
+
+    #tabela h2 {
+        font-size: 40px;
+    }
+
+    #tabela h3 {
+        font-size: 2.1875rem;
+    }
+
+    #tabela.tab-cerveja {
+        padding-bottom: 40px;
+    }
+
+    #tabela .tab-2-espacamento {
+        padding-top: 15px;
+    }
+
+
+    /*SECTION - CAPA TERCIÁRIA*/
+    #capa-terciaria {
+        height: 330px;
+        background-size: cover;
+        background-position: right left;     
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    
+    /*SECTION VISITA*/
+    #visita {
+        height: 482px;
+        text-align: center;
+    }
+
+    #visita h2 {
+        font-size: 2rem;
+    }
+
+    #visita h3 {
+        font-size: 2.1875rem;
+    }
+
+    #visita p {
+        font-size: .95rem;
+    }
+
+    #visita .visita-container2 {
+        padding-top: 15px;
+    }
+
+    #visita button {
+        font-size: 1rem;
+        width: 224px;
+        height: 52px;
+    }
+
+    footer {
+        text-align: center;
+        height: 135px;        
+    }
+
+    footer h6 {
+        font-size: .875rem;
+    }
+
+    #rodape-container2 h6{
+        text-align: center;
+    }
+
+
+    /*----------------------------------------------*/
+
+    /*              CERVEJARIA                      */
+    #historia {
+        height: 300px;
+    }
+
+    #historia h2 {
+        font-size: 2rem;
+    }
+
+    #historia h3 {
+        font-size: 2.1875rem;
+    }
+
+    #historia p {
+        font-size: .95rem;
+        padding-top: 30px;
+    }
+
+    /*SECTION CAPA CERVEJARIA*/
+    #capa-cervejaria {
+        height: 330px;
+        background-size: cover;
+        background-position: right left;     
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+/*----------------------------------------------*/
+
+    /*              NOSSA CERVEJARIA                      */
+    .propaganda-cerveja-container {
+        height: 750px;
+        margin-top: 60px;
+    }
+    
+    #propaganda-cerveja img {
+        width: 447px;
+        height: 340px;
+    }
+
+    .cerveja-impar img {
+        width: 447px;
+        height: 331px;
+    }
+
+    .prop-cerveja-h2 {
+        font-size: 30px;
+    }
+
+    .prop-cerveja-h3 {
+        font-size: 2.1875rem;
+    }
+
+    .prop-cerveja-p {
+        font-size: .95rem;
+    }
+
+    #cerveja3 {
+        padding-top: 30px;
+        height: 780px;
+    }
+    #cerveja3 img {
+        width: 447px;
+        height: 354px;
+    }
+
+    /*----------------------------------------------*/
+    /*                  VISITAS GUIADAS             */
+    #visitaguiada-container h2 {
+        font-size: 2.5rem;
+    }
+
+    #visitaguiada-container h3 {
+        font-size: 2.1875rem;
+    }
+
+    #visitaguiada-container p {
+        font-size: .95rem;
+    }
+
+    #visitaguiada-container {
+        height: 800px;
+        padding-top: 40px;
+    }
+
+    #formulario {
+        
+        margin-bottom: 25px;
+    }
+
+    #formulario input {
+        width: 447px;
+        height: 42px;
+    }
+
+    #formulario textarea {
+        width: 447px;
+        height: 105px;
+    }
+
+    #formulario button {
+        width: 224px;
+        height: 52px;
+    }
+    
+    /*----------------------------------*/
+    /*              CONTATO             */
+    #contato-conteudo {
+        height: 500px;
+    }
+    #contato-conteudo #contato-conteudo-container2 {
+        padding-left: 10px;
+    }
+
+    #mapa {
+        height: 230px;
+    }
+
+    #mapa iframe {
+        width: 447px;
+        height: 190px;
+    }
+}
+/*Landscape phones, 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    /*CAPA - PRINCIPAL - HEADER*/
+    #home{
+        height: 368px;
+        background-size: cover;
+        background-position: right center;        
+    }
+    
+    /*CAPA - CONTROLE*/
+    .capa-controle {
+        height: 90px;
+    }
+
+    /*LOGO*/
+    #home span {
+        font-size: 1.075rem;
+    }
+    
+    /*LOGO CONTROLE*/
+    .capa-controle span {
+        font-size: 1.075rem;
+    }
+
+    /*MENU - HAMBURGER*/
+    #home button {
+        color: #fff;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU CERVEJARIA - HAMBURGER*/
+    #cervejaria button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU NOSSA CERVEJARIA - HAMBURGER*/
+    #nossascervejas button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU VISITA GUIADA - HAMBURGER*/
+    #visitaguiada button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU CONTATO - HAMBURGER*/
+    #contato button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*TOPO - FONTS*/
+    #capa-fonte {
+        padding-top: 15px;
+    }
+
+    #capa-fonte .fonte-allura {
+        font-size: 2.375rem;
+    }
+
+    #capa-fonte .microcervejaria {
+        font-size: 2.375rem;
+        padding-top: 20px;
+    }
+
+    #capa-fonte .cervejófilos {
+        font-size: 1.125rem;
+        padding-top: 25px;
+    }
+
+    /*SECTION PROPAGANDA*/
+    #propaganda {
+        height: 728px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #propaganda h2 {
+        font-size: 2rem;
+    }
+
+    #propaganda h3 {
+        font-size: 2.1875rem;
+    }
+
+    #propaganda p {
+        font-size: .95rem;
+    }
+
+    #propaganda button {
+        font-size: 1rem;
+        width: 224px;
+        height: 52px;
+    }
+
+    /*SECTION - CAPA SECUNDÁRIA*/
+    #capa-secundaria {
+        height: 350px;
+        background-size: cover;
+        background-position: right left;     
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /*SECTION - TABELA*/
+    #tabela {
+        height: 1100px;
+        padding-bottom: 30px;
+    }
+
+
+    #tabela h2 {
+        font-size: 40px;
+    }
+
+    #tabela h3 {
+        font-size: 2.1875rem;
+    }
+
+    #tabela.tab-cerveja {
+        padding-bottom: 40px;
+    }
+
+    #tabela .tab-cerveja h3 {
+        font-size: .95rem;
+    }
+
+    #tabela .tab-2-espacamento {
+        padding-top: 15px;
+    }
+
+    /*SECTION - CAPA TERCIÁRIA*/
+    #capa-terciaria {
+        height: 575px;
+        background-size: cover;
+        background-position: left right;     
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /*SECTION VISITA*/
+    #visita {
+        height: 518px;
+        text-align: center;
+    }
+
+    #visita h2 {
+        font-size: 2rem;
+    }
+
+    #visita h3 {
+        font-size: 2.1875rem;
+    }
+
+    #visita p {
+        font-size: .95rem;
+    }
+
+    #visita .visita-container2 {
+        padding-top: 15px;
+    }
+
+    #visita button {
+        font-size: 1rem;
+        width: 224px;
+        height: 52px;
+    }
+
+    /*FOOTER*/
+    footer {
+        text-align: center;
+        height: 139px;        
+    }
+
+    footer h6 {
+        font-size: .875rem;
+    }
+
+    #rodape-container2 h6{
+        text-align: center;
+    }
+
+        /*----------------------------------------------*/
+
+    /*              CERVEJARIA                      */
+    #historia {
+        height: 300px;
+    }
+
+    #historia h2 {
+        font-size: 2rem;
+    }
+
+    #historia h3 {
+        font-size: 2.1875rem;
+    }
+
+    #historia p {
+        font-size: .95rem;
+        padding-top: 30px;
+    }
+
+    /*SECTION CAPA CERVEJARIA*/
+    #capa-cervejaria {
+        height: 350px;
+        background-size: cover;
+        background-position: right left;     
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+/*----------------------------------------------*/
+
+    /*              NOSSA CERVEJARIA                      */
+    .propaganda-cerveja-container {
+        height: 750px;
+        margin-top: 60px;
+    }
+    
+    #propaganda-cerveja img {
+        width: 508px;
+        height: 386px;
+    }
+
+    .prop-cerveja-h2 {
+        font-size: 30px;
+    }
+
+    .prop-cerveja-h3 {
+        font-size: 2.1875rem;
+    }
+
+    .prop-cerveja-p {
+        font-size: .95rem;
+    }
+
+    /*----------------------------------------------*/
+    /*                  VISITAS GUIADAS             */
+    #visitaguiada-container h2 {
+        font-size: 2.5rem;
+    }
+
+    #visitaguiada-container h3 {
+        font-size: 2.1875rem;
+    }
+
+    #visitaguiada-container p {
+        font-size: .95rem;
+    }
+
+    #visitaguiada-container {
+        height: 800px;
+        padding-top: 10px;        
+    }
+
+    #formulario {
+        margin-bottom: 25px;
+    }
+
+    #formulario input {
+        width: 530px;
+        height: 42px;
+    }
+
+    #formulario textarea {
+        width: 530px;
+        height: 105px;
+    }
+
+    #formulario button {
+        width: 224px;
+        height: 52px;
+    }
+
+    /*----------------------------------*/
+    /*              CONTATO             */
+    #contato-conteudo {
+        height: 450px;
+    }
+    #contato-conteudo #contato-conteudo-container2 {
+        padding-left: 10px;
+    }
+
+    #mapa {
+        height: 280px;
+    }
+
+    #mapa iframe {
+        width: 538px;
+        height: 229px;
+    }
+
+}
+
+/*Tablets, 768px and up*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+     /*CAPA - PRINCIPAL - HEADER*/
+     #home{
+        height: 400px;
+        background-size: cover;
+        background-position: right center;        
+    }
+
+    /*CAPA CONTROLE*/
+    .capa-controle {
+        height: 90px;
+    }
+
+     /*LOGO*/
+     #home span {
+        font-size: 1.25rem;
+    }
+    
+    /*MENU - HAMBURGER*/
+    #home button {
+        color: #fff;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU CERVEJARIA - HAMBURGER*/
+    #cervejaria button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU NOSSA CERVEJARIA - HAMBURGER*/
+    #nossascervejas button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU VISITA GUIADA - HAMBURGER*/
+    #visitaguiada button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*MENU CONTATO - HAMBURGER*/
+    #contato button {
+        color:black;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*LOGO CONTROLE*/
+    .capa-controle span {
+        font-size: 1.25rem;
+    }
+
+    /*TOPO - FONTS*/
+    #capa-fonte {
+        padding-top: 15px;
+    }
+
+    #capa-fonte .fonte-allura {
+        font-size: 3.5rem;
+    }
+
+    #capa-fonte .microcervejaria {
+        font-size: 3.5rem;
+        padding-top: 20px;
+    }
+
+    #capa-fonte .cervejófilos {
+        font-size: 1.125rem;
+        padding-top: 25px;
+    }
+
+    /*SECTION PROPAGANDA*/
+    #propaganda {
+        height: 587px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #propaganda h2 {
+        font-size: 2rem;
+    }
+
+    #propaganda h3 {
+        font-size: 2.1875rem;
+    }
+
+    #propaganda p {
+        font-size: .95rem;
+    }
+
+    #propaganda button {
+        font-size: 1rem;
+        width: 327px;
+        height: 52px;
+    }
+
+    /*SECTION - CAPA SECUNDÁRIA*/
+    #capa-secundaria {
+        height: 530px;
+        background-size: cover;
+        background-position: right left;     
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /*SECTION - TABELA*/
+    #tabela {
+        height: 550px;
+    }
+            
+    #tabela .tab-espacamento h2 {
+        font-size: 25px;
+    }
+
+    #tabela .tab-espacamento h3 {
+        font-size: 2.1875rem;
+    }
+
+    
+    #tabela .tab-cerveja h3 {
+        font-size: .95rem;
+    }
+
+    .tab-espacamento {
+        padding-top: 5px;
+    }
+
+    /*SECTION - CAPA TERCIÁRIA*/
+    #capa-terciaria {
+        height: 570px;
+        background-size: cover;
+        background-position: left center;     
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+     /*SECTION VISITA*/
+     #visita {
+        height: 463px;
+    }
+
+    #visita h2 {
+        font-size: 2rem;
+    }
+
+    #visita h3 {
+        font-size: 2.1875rem;
+    }
+
+    #visita p {
+        font-size: .95rem;
+    }
+
+    #visita button {
+        font-size: 1rem;
+        width: 327px;
+        height: 52px;
+    }
+
+    /*FOOTER*/
+    footer {
+        text-align: center;
+        height: 139px;        
+    }
+    
+    footer h6 {
+        font-size: .875rem;
+    }
+    
+    #rodape-container2 h6{
+        text-align: center;
+    }
+
+    /*----------------------------------------------*/
+
+    /*              CERVEJARIA                      */
+    #historia {
+        height: 300px;
+    }
+
+    #historia h2 {
+        font-size: 2rem;
+    }
+
+    #historia h3 {
+        font-size: 2.1875rem;
+    }
+
+    #historia p {
+        font-size: .95rem;
+        padding-top: 30px;
+    }
+
+    /*SECTION CAPA CERVEJARIA*/
+    #capa-cervejaria {
+        height: 430px;
+        background-size: cover;
+        background-position: right left;     
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    /*SECTION CONTEÚDO CERVEJARIA*/
+    #conteudo-cervejaria {
+        height: 800px;
+    }
+
+/*----------------------------------------------*/
+
+    /*              NOSSA CERVEJARIA                      */
+    .propaganda-cerveja-container {
+        height: 500px;
+        margin-top: 60px;
+    }
+    
+    #propaganda-cerveja img {
+        width: 372px;
+        height: 282px;
+    }
+
+    .cerveja-impar img {
+        width: 404px;
+        height: 300px;
+    }
+
+    .prop-cerveja-h2 {
+        font-size: 30px;
+    }
+
+    .prop-cerveja-h3 {
+        font-size: 2.1875rem;
+    }
+
+    .prop-cerveja-p {
+        font-size: .95rem;
+    }
+
+    #cerveja3 {
+        padding-top: 30px;
+        height: 480px;
+    }
+    #cerveja3 img {
+        width: 363px;
+        height: 287px;
+    }
+
+    /*----------------------------------------------*/
+    /*                  VISITAS GUIADAS             */
+    
+    #visitaguiada-container h2 {
+        font-size: 2.5rem;
+    }
+
+    #visitaguiada-container h3 {
+        font-size: 2.1875rem;
+    }
+
+    #visitaguiada-container p {
+        font-size: .95rem;
+    }
+
+    #visitaguiada-container {
+        height: 510px;
+        padding-top: 10px;
+      
+    }
+
+    #formulario {
+        margin-right: 25px;
+    }
+
+    #formulario input {
+        width: 335px;
+        height: 42px;
+    }
+
+    #formulario textarea {
+        width: 335px;
+        height: 105px;
+    }
+
+    #formulario button {
+        width: 335px;
+        height: 52px;
+    }    
+
+    /*----------------------------------*/
+    /*              CONTATO             */
+    #contato-conteudo {
+        height: 350px;
+    }
+    #contato-conteudo #contato-conteudo-container2 {
+        padding-bottom: 45px;
+    }    
+
+    #mapa {
+        height: 350px;
+    }
+
+    #mapa iframe {
+        width: 702px;
+        height: 300px;
+    }
+}
+
+/*Desktop, 992px and up*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    /*SECTION PROPAGANDA*/
+    #propaganda {
+        height: 513px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #propaganda img {
+        width: 390px;
+        height: 298px;
+    }
+        
+    #propaganda h2 {
+        font-size: 2rem;
+    }
+    
+    #propaganda h3 {
+        font-size: 2.1875rem;
+    }
+    
+    #propaganda p {
+        font-size: .95rem;
+    }
+    
+    #propaganda button {
+        font-size: 1rem;
+        width: 224px;
+        height: 52px;
+    }
+
+    /*SECTION - TABELA*/
+    #tabela {
+        height: 680px;
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+            
+    #tabela .tab-espacamento h2 {
+        font-size: 35px;
+    }
+
+    #tabela .tab-espacamento h3 {
+        font-size: 2.1875rem;
+    }
+    
+    #tabela .tab-cerveja h3 {
+        font-size: 1rem;
+    }    
+
+     /*SECTION - CAPA TERCIÁRIA*/
+     #capa-terciaria {
+        height: 570px;
+        background-size: cover;
+        background-position: left center;     
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+     /*SECTION VISITA*/
+     #visita {
+        height: 468px;
+    }
+
+    #visita h2 {
+        font-size: 2rem;
+    }
+
+    #visita h3 {
+        font-size: 2.1875rem;
+    }
+
+    #visita p {
+        font-size: .95rem;
+    }
+
+    #visita button {
+        font-size: 1rem;
+        width: 224px;
+        height: 52px;
+    }
+
+        /*----------------------------------------------*/
+
+    /*              CERVEJARIA                      */
+    #historia {
+        height: 300px;
+    }
+
+    #historia h2 {
+        font-size: 2rem;
+    }
+
+    #historia h3 {
+        font-size: 2.1875rem;
+    }
+
+    #historia p {
+        font-size: .95rem;
+    }
+
+    /*SECTION CAPA CERVEJARIA*/
+    #capa-cervejaria {
+        height: 470px;
+        background-size: cover;
+        background-position: right left;     
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+/*----------------------------------------------*/
+
+    /*              NOSSA CERVEJARIA                      */
+    .propaganda-cerveja-container {
+        height: 650px;
+        margin-top: 60px;
+    }
+    
+    #propaganda-cerveja img {
+        width: 440px;
+        height: 334px;
+    }
+
+    .cerveja-impar img {
+        width: 495px;
+        height: 367px;
+    }
+
+    .prop-cerveja-h2 {
+        font-size: 30px;
+    }
+
+    .prop-cerveja-h3 {
+        font-size: 2.1875rem;
+    }
+
+    .prop-cerveja-p {
+        font-size: .95rem;
+    }
+
+    /*----------------------------------------------*/
+    /*                  VISITAS GUIADAS             */
+    #visitaguiada-container h2 {
+        font-size: 2.5rem;
+    }
+
+    #visitaguiada-container h3 {
+        font-size: 2.1875rem;
+    }
+
+    #visitaguiada-container p {
+        font-size: .95rem;
+    }
+
+    #visitaguiada-container {
+        height: 500px;
+        padding-top: 10px;        
+    }
+
+    #formulario {
+        margin-bottom: 25px;        
+    }
+
+    #formulario input {
+        width: 437px;
+        height: 42px;
+    }
+
+    #formulario textarea {
+        width: 437px;
+        height: 105px;
+    }
+
+    #formulario button {
+        width: 224px;
+        height: 52px;
+    }
+
+    /*----------------------------------*/
+    /*              CONTATO             */
+    #contato-conteudo {
+        height: 350px;
+    }
+    #contato-conteudo #contato-conteudo-container2 {
+        padding-bottom: 45px;
+    }
+
+    #mapa {
+        height: 450px;
+    }
+
+    #mapa iframe {
+        width: 933px;
+        height: 397px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+  
+}
